@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="commonarchetype" />
+        <module name="consulstu" />
+        <module name="apimanagement" />
+        <module name="commonweb" />
+        <module name="consulstuserver" />
+        <module name="consulstuserver2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commonall" target="1.8" />
+      <module name="consu-stu-server2" target="1.8" />
+      <module name="consul-pass" target="1.8" />
+      <module name="webcommon" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="apimanagement" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="commonall" options="-parameters" />
+      <module name="commonarchetype" options="-parameters" />
+      <module name="commonweb" options="-parameters" />
+      <module name="consu-stu-server2" options="-parameters" />
+      <module name="consul-pass" options="-parameters" />
+      <module name="consulstu" options="-parameters" />
+      <module name="consulstuserver" options="-parameters" />
+      <module name="consulstuserver2" options="-parameters" />
+      <module name="webcommon" options="-parameters" />
+    </option>
+  </component>
+</project>

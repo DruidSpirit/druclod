@@ -1,0 +1,9 @@
+server:
+  port: 9991
+spring:
+  application:
+    name: server-stu
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
